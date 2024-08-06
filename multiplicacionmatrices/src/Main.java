@@ -7,14 +7,14 @@ public class Main {
         int filas1 = entrada.nextInt();
         System.out.print("Ingrese la columna de la Matriz 1: ");
         int columnas1 = entrada.nextInt();
-        int[][] matriz1 = new int[filas1][columnas1];
+        int[][] matriz1 = new int[filas1][columnas1];//Creo la matriz 1
         System.out.print("Ingrese la fila de la Matriz 2: ");
         int filas2 = entrada.nextInt();
         System.out.print("Ingrese la columna de la Matriz 2: ");
         int columnas2 = entrada.nextInt();
-        int[][] matriz2 = new int[filas2][columnas2];
+        int[][] matriz2 = new int[filas2][columnas2]; //Creo la matriz 2
         if (columnas1 == filas2) {
-            int i;
+            int i; //Defino las variables para los ciclos
             int j;
 
             for(i = 0; i < filas1; ++i) {
