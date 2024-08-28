@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="multiplicacionmatrices2/src"/>
 	<classpathentry kind="src" path="numerosordinales/src"/>
 	<classpathentry kind="src" path="recorrerarray/src"/>
+	<classpathentry kind="src" path="PrimerosPasos/src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
