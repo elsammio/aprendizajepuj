@@ -14,6 +14,8 @@ public class EntradaScanner {
 		String nombre = entrada.nextLine();
 		
 		System.out.println("Hola " + nombre);
+		
+		entrada.close();
 	}
 
 }
