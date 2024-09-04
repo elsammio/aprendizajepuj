@@ -27,13 +27,7 @@ public class Main {
 			
 			
 		}
-		
-		
-		
-		
-		
-		
-		
+			
 		
 	}
 
