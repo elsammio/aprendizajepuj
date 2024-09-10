@@ -11,11 +11,15 @@ public class Condicional_If_Ejemplo3 {
 		
 		double renta_familiar;
 		
+		byte hermanos_centro;
+		
 		distancia_colegio = Integer.parseInt(JOptionPane.showInputDialog("Introduce distancia al colegio en KM"));
 		
 		renta_familiar = Double.parseDouble(JOptionPane.showInputDialog("Introduce renta familiar"));
 		
-		if (distancia_colegio > 10000 && renta_familiar < 20000) {
+		hermanos_centro = Byte.parseByte(JOptionPane.showInputDialog("Introduce el numero de hermanos"));
+		
+		if (distancia_colegio > 10000 && renta_familiar < 20000 && hermanos_centro >= 2 ) {
 			
 			System.out.println("Usted puede acceder a el beneficio ");
 			
@@ -24,6 +28,16 @@ public class Condicional_If_Ejemplo3 {
 			System.out.println("Usted no es apto para acceder al beneficio");
 		}
 		
+		/* 
+		 if (!(distancia_colegio > 10000 && renta_familiar < 20000 && hermanos_centro >= 2 )) {
+			
+			System.out.println("Usted puede acceder a el beneficio ");
+			
+		}else {
+			
+			System.out.println("Usted no es apto para acceder al beneficio");
+		}
+		*/
 		
 		
 		
