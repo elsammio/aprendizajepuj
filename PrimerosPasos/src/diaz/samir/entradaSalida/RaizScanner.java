@@ -27,7 +27,7 @@ public class RaizScanner {
 		
 		//Modifica el programa del ejercicio anterior para reducir lo máximo posible el nº de líneas de código.
 		
-        Scanner entrada = new Scanner (System.in);
+        /*Scanner entrada = new Scanner (System.in);
 		
 		System.out.println("Digite un numero: ");
 				
@@ -35,7 +35,7 @@ public class RaizScanner {
 		
 		System.out.println("La raiz es " + raiz);
 		
-		entrada.close();
+		entrada.close();*/
 
 	}
 
