@@ -33,6 +33,13 @@ public class Conjunto {
 		return union;
 	}
 	
+	public List<Estudiante> diferencia(List<Estudiante> conjunto1, List<Estudiante> conjunto2){
+		List<Estudiante> diferencia = new ArrayList<>();
+		
+		
+		return diferencia;
+	}
+	
 	
 	
 }
