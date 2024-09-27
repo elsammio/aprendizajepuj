@@ -11,9 +11,12 @@ public class Main {
 		
 		List<Estudiante> economia = new ArrayList<>();
 		
-		List<Estudiante> interseccion = new ArrayList<>();
+		Conjunto conjunto = new Conjunto();
 		
-		//Estudiante estudiante = new Estudiante(1, "Samir", "Diaz");
+		
+		
+		//List<Estudiante> interseccion = new ArrayList<>();
+		
 		
 		sistemas.add(new Estudiante (1,"Samir", "Diaz"));
 		sistemas.add(new Estudiante (2,"Alexander", "Filigrana"));
@@ -25,40 +28,11 @@ public class Main {
 		economia.add(new Estudiante (1,"Samir", "Diaz"));
 		economia.add(new Estudiante (2,"Alexander", "Filigrana"));
 		
-		/*for(int i=0; i < sistemas.size(); i ++) {
-		
-		for(int j = 0; j< economia.size(); j ++) {
-			
-			if(sistemas.get(i).getIdEstudiante()== economia.get(j).getIdEstudiante()) {
-				
-				interseccion.add(new Estudiante (sistemas.get(i).getIdEstudiante(),sistemas.get(i).getNombres(), sistemas.get(i).getApellidos()));
-				
-				System.out.println(interseccion);
-				
-			}
-			
-		}			
-		
-	}*/
 		
 		
-		for(Estudiante estudianteSistemas : sistemas){
-			for(Estudiante estudianteEconomia : economia) {
-				
-				if(estudianteSistemas.getIdEstudiante() == estudianteEconomia.getIdEstudiante()) {
-					
-					interseccion.add(new Estudiante(estudianteSistemas.getIdEstudiante(),estudianteSistemas.getNombres(),estudianteSistemas.getApellidos()));
-					
-					System.out.println(interseccion);
-					
-				}
-				
-			}
-		}
 		
-	
-		
-		
+		System.out.println(conjunto.interseccion(sistemas, economia));
+
 		
 		
 	}
