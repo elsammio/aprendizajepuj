@@ -11,6 +11,8 @@ public class Main {
 		
 		List<Estudiante> economia = new ArrayList<>();
 		
+		
+		
 		Conjunto conjunto = new Conjunto();
 		
 		
@@ -31,12 +33,17 @@ public class Main {
 		
 		
 		
-		System.out.println(conjunto.interseccion(sistemas, economia));
+		//System.out.println(conjunto.interseccion(sistemas, economia));
 		
-		//prueba
+		List<Estudiante> diferencia = conjunto.diferencia(sistemas, economia);
+		
+		conjunto.impresionConjuntos(diferencia);
+		
+		
 
 		
 		
 	}
 
 }
+;
