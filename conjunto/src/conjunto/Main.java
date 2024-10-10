@@ -11,6 +11,10 @@ public class Main {
 		
 		List<Estudiante> economia = new ArrayList<>();
 		
+		List<Estudiante> ingles = new ArrayList<>();
+		
+		List<Estudiante> universal = new ArrayList<>();
+		
 		
 		
 		Conjunto conjunto = new Conjunto();
@@ -29,6 +33,11 @@ public class Main {
 		economia.add(new Estudiante (5,"Andres", "Gutierrez"));
 		economia.add(new Estudiante (1,"Samir", "Diaz"));
 		economia.add(new Estudiante (2,"Alexander", "Filigrana"));
+		
+		ingles.add(new Estudiante (10,"Gina", "Villafae"));
+		ingles.add(new Estudiante (11,"Selene", "Osorio"));
+		ingles.add(new Estudiante (12,"Yisel", "Cruz"));
+		ingles.add(new Estudiante (13,"Diana", "Luna"));
 		
 		
 		
