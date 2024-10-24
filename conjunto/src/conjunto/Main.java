@@ -39,6 +39,17 @@ public class Main {
 		ingles.add(new Estudiante (12,"Yisel", "Cruz"));
 		ingles.add(new Estudiante (13,"Diana", "Luna"));
 		
+		universal.add(new Estudiante (1,"Samir", "Diaz"));
+		universal.add(new Estudiante (2,"Alexander", "Filigrana"));
+		universal.add(new Estudiante (3,"Monica", "Perdomo"));
+		universal.add(new Estudiante (4,"Alexander", "Alegria"));
+		universal.add(new Estudiante (5,"Andres", "Gutierrez"));
+		universal.add(new Estudiante (10,"Gina", "Villafae"));
+		universal.add(new Estudiante (11,"Selene", "Osorio"));
+		universal.add(new Estudiante (12,"Yisel", "Cruz"));
+		universal.add(new Estudiante (13,"Diana", "Luna"));
+		
+		
 		
 		
 		
@@ -46,7 +57,12 @@ public class Main {
 		
 		List<Estudiante> diferencia = conjunto.diferencia(sistemas, economia);
 		
-		conjunto.impresionConjuntos(diferencia);
+		List<Estudiante> union = conjunto.union(sistemas, economia);
+		
+        //conjunto.impresionConjuntos(diferencia); 
+		
+		conjunto.impresionConjuntos(union);
+		
 		
 		
 

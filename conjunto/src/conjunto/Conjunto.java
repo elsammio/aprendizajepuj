@@ -28,7 +28,13 @@ public class Conjunto {
 	
 	public List<Estudiante> union(List<Estudiante> conjunto1, List<Estudiante> conjunto2){
 		List<Estudiante> union = new ArrayList<>();
+		union.addAll(conjunto1);// agrego aqui todos los elementos del conjunto 1
 		
+		for (Estudiante elementoConjunto2 : conjunto2) {
+            if (!union.contains(elementoConjunto2)) {
+                union.add(elementoConjunto2);
+            }
+        }
 		
 		return union;
 	}
@@ -66,6 +72,15 @@ public class Conjunto {
 	
 		
 		return diferencia;
+	}
+	
+	public List<Estudiante> complemento(List<Estudiante> conjunto1, List<Estudiante> conjunto2){
+		List<Estudiante> complemento = new ArrayList<>();
+	
+		
+		
+		
+		return complemento;
 	}
 	
 	
