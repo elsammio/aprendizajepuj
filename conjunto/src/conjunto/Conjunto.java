@@ -31,7 +31,7 @@ public class Conjunto {
 		union.addAll(conjunto1);// agrego aqui todos los elementos del conjunto 1
 		
 		for (Estudiante elementoConjunto2 : conjunto2) {
-            if (!union.contains(elementoConjunto2)) {
+            if (!union.contains(elementoConjunto2)) {// Aqui comparo si los elementos de conjunto dos estan en union
                 union.add(elementoConjunto2);
             }
         }
