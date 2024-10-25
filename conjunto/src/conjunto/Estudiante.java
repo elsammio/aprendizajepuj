@@ -1,5 +1,7 @@
 package conjunto;
 
+import java.util.Objects;
+
 public class Estudiante { 
 	private int idEstudiante;
 	private String nombres;
@@ -40,6 +42,27 @@ public class Estudiante {
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
 	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(apellidos, idEstudiante, nombres);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Estudiante other = (Estudiante) obj;
+		return Objects.equals(apellidos, other.apellidos) && idEstudiante == other.idEstudiante
+				&& Objects.equals(nombres, other.nombres);
+	}
+
+	
+	
 	
 	
 	
