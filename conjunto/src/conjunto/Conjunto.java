@@ -76,12 +76,8 @@ public class Conjunto {
 	}
 	
 	public List<Estudiante> complemento(List<Estudiante> conjunto1, List<Estudiante> conjunto2){
-		List<Estudiante> complemento = new ArrayList<>();
-	
 		
-		
-		
-		return complemento;
+		return diferencia(conjunto1, conjunto2);
 	}
 	
 	

@@ -59,9 +59,13 @@ public class Main {
 		
 		List<Estudiante> union = conjunto.union(sistemas, economia);
 		
+		List<Estudiante> complemento = conjunto.complemento(universal, sistemas);
+		
         //conjunto.impresionConjuntos(diferencia); 
 		
-		conjunto.impresionConjuntos(union);
+		//conjunto.impresionConjuntos(union);
+        
+        conjunto.impresionConjuntos(complemento);
 		
 		
 		
