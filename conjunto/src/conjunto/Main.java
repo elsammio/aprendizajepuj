@@ -59,13 +59,22 @@ public class Main {
 		
 		List<Estudiante> union = conjunto.union(sistemas, economia);
 		
+<<<<<<< HEAD
 		List<Estudiante> complemento = conjunto.complemento(universal, sistemas);
 		
         //conjunto.impresionConjuntos(diferencia); 
+=======
+		System.out.println("La diferencia entre los conjuntos es: ");
+		
+        conjunto.impresionConjuntos(diferencia); 
+        
+        System.out.println("La unión entre los conjuntos es: ");
+>>>>>>> 657c77424bd1ee28b61ce1ce531153a6066676c1
 		
 		//conjunto.impresionConjuntos(union);
         
         conjunto.impresionConjuntos(complemento);
+		
 		
 		
 		
