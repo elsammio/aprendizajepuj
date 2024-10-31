@@ -63,16 +63,8 @@ public class Main {
 		List<Estudiante> complemento = conjunto.complemento(universal, sistemas);
 		
         //conjunto.impresionConjuntos(diferencia); 
-
-		System.out.println("La diferencia entre los conjuntos es: ");
 		
-        conjunto.impresionConjuntos(diferencia); 
-        
-        System.out.println("La unión entre los conjuntos es: ");
-
-		//conjunto.impresionConjuntos(union);
-        
-        conjunto.impresionConjuntos(complemento);
+		conjunto.impresionConjuntos(union);
 		
 		
 		
