@@ -26,20 +26,17 @@ public class Operaciones {
 		int resultado = 0;
 		
 		
-		for (int i = 0; i <= num; i++) {
+		for (int i = 1; i < num; i++) {
 			
-			
-				
             resultado = num1 + num2; 
             
             num1 = num2;
             
             num2 = resultado;
       
-
 	    }
 		
-		return resultado;
+		return  num2;
 	}
 
 	
