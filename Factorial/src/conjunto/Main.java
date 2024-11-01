@@ -20,9 +20,6 @@ public class Main {
 		resultado = factorial.factorial_multiplicacion(num);
 		
 	
-		
-		
-		
 		System.out.println(resultado);
 		
 
