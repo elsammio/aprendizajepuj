@@ -25,6 +25,8 @@ public class Main {
 		
 		System.out.println(resultado);
 		
+		
+		
 		if(resultado != Math.floor(resultado) ) {
 			
 			System.out.println("El numero "   + j + " es multiplo de 3");

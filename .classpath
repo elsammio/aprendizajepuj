@@ -7,5 +7,6 @@
 	<classpathentry kind="src" path="numerosordinales/src"/>
 	<classpathentry kind="src" path="recorrerarray/src"/>
 	<classpathentry kind="src" path="PrimerosPasos/src"/>
+	<classpathentry kind="src" path="FizzBuzz/src/fizzbuzz"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
