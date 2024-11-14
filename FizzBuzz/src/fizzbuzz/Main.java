@@ -13,43 +13,13 @@ public class Main {
 		 * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 		 */
 		
-		int num = 11;
+		int num = 100;
 		
-		int j = 3;
-		
-		int tres = 3;
-		
-		double resultado;
-		
-		resultado = j / tres;
-		
-		System.out.println(resultado);
-		
-		
-		
-		if(resultado != Math.floor(resultado) ) {
+		for (int i = 1; i <= num; i++) {
 			
-			System.out.println("El numero "   + j + " es multiplo de 3");
-			
-		}else {
-			
-			System.out.println("El numero "   + j + " no es multiplo de 3");
-		}
-		
-		
-		
-		for (int i = 1; i < num; i++) {
-			
-			
-			
-			//System.out.println(i);
-			
-			
-			/*if(entero == Math.floor(entero) ) {
-				
-				System.out.println("El numero " + entero + " es multiplo de 3");
-				
-			}*/
+			if (i % 3 == 0) {
+                System.out.println("fizz" + i);
+            }
 			
 		}
 
