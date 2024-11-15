@@ -1,0 +1,37 @@
+img{
+    
+    border-style: initial;
+    box-shadow: 10px 0px 100px rgba(blue, blue, blue, alpha);
+    border-color: beige;
+
+    display: block;
+    margin: auto;
+
+}
+
+body{
+    background-color: lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#principal{
+    text-align: center;
+    color: #ff4242d5;
+}
+
+#secundario{
+    text-align: center;
+    color: #42ff91d5;
+    
+}
+#palmares{
+    border-color: brown;
+    text-align: center;
+    border: #b2b2b2 1px solid;
+    margin: auto;
+
+}
+td, th {
+    border: black 1px solid;
+}

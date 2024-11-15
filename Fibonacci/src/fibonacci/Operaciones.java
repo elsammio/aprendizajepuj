@@ -26,7 +26,7 @@ public class Operaciones {
 		int resultado = 0;
 		
 		
-		for (int i = 1; i < num; i++) {
+		for (int i = 0; i < num -2; i++) {
 			
             resultado = num1 + num2; 
             
@@ -36,7 +36,7 @@ public class Operaciones {
       
 	    }
 		
-		return  num2;
+		return  resultado;
 	}
 
 	

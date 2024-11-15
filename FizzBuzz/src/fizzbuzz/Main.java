@@ -15,12 +15,23 @@ public class Main {
 		
 		int num = 100;
 		
+		int mul5;
+		
 		for (int i = 1; i <= num; i++) {
 			
 			if (i % 3 == 0) {
                 System.out.println("fizz" + i);
             }
 			
+			if(i % 5 == 0) {
+				
+				System.out.println("buzz" + i);
+			}
+
+			if (i % 3 == 0 && i % 5 == 0) {
+				
+				System.out.println("fizzbuzz" + i);
+			}
 		}
 
 		
