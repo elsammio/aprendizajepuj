@@ -14,10 +14,17 @@ public class Main {
 			
 			Scanner scanner = new Scanner(System.in);
 			System.out.print("Ingrese un numero: ");
-			numeros[]= scanner.nextInt();
-			
+			numeros[i]= scanner.nextInt();	
 			
 		}
+		
+		System.out.println("Los números ingresados son:");
+		
+        for (int numero : numeros) {
+            System.out.print(numero + " ");
+        }
+        
+        
 		
 		
 		
