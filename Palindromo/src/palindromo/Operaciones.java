@@ -16,7 +16,7 @@ public class Operaciones {
 	}
 	
 	public static String invertirPalabra(String palabra) {
-	    StringBuilder palabraInvertida = new StringBuilder();
+	    StringBuilder palabraInvertida = new StringBuilder();//investigar StringBuilder
 	    for (int i = palabra.length() - 1; i >= 0; i--) {
 	        palabraInvertida.append(palabra.charAt(i)); 
 
