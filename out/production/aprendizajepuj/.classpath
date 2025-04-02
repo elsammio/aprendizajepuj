@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="conjuntos/src"/>
+	<classpathentry kind="src" path="multiplicacionmatrices/src"/>
+	<classpathentry kind="src" path="multiplicacionmatrices2/src"/>
+	<classpathentry kind="src" path="numerosordinales/src"/>
+	<classpathentry kind="src" path="recorrerarray/src"/>
+	<classpathentry kind="src" path="PrimerosPasos/src"/>
+	<classpathentry kind="src" path="FizzBuzz/src/fizzbuzz"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
